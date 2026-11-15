@@ -1,0 +1,12 @@
+{
+  "name": "justice-docket",
+  "description": "Source-backed expert-witness research through Justice Docket.",
+  "owner": { "name": "BlueBridge Logic" },
+  "plugins": [
+    {
+      "name": "justice-docket",
+      "source": "./plugins/justice-docket",
+      "description": "Research expert witnesses, cases, and source evidence through Justice Docket."
+    }
+  ]
+}

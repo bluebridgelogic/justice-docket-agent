@@ -1,0 +1,11 @@
+{
+  "packageVersion": "0.1.0",
+  "toolContractVersion": "1.0.0",
+  "mcpEndpoint": "https://justicedocket.bluebridgelogic.com/mcp",
+  "tools": ["search_records", "get_record", "get_related_records", "search_passages", "read_source"],
+  "verification": {
+    "packageChecks": "run npm run check and npm run build",
+    "realClaude": "pending owner verification",
+    "realChatGPT": "pending owner verification"
+  }
+}

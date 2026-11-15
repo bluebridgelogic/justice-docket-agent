@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "justice-docket",
+  "version": "0.1.0",
+  "description": "Research expert witnesses, cases, and supporting documents with source-backed, read-only Justice Docket tools.",
+  "author": { "name": "BlueBridge Logic", "url": "https://bluebridgelogic.com" },
+  "homepage": "https://justicedocket.bluebridgelogic.com/connect-your-ai",
+  "repository": "https://github.com/bluebridgelogic/justice-docket-agent",
+  "keywords": ["expert-witness", "research", "evidence"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/justice-docket-setup/SKILL.md",
+      "interface": {
+        "displayName": "Justice Docket",
+        "shortDescription": "Research experts and supporting evidence",
+        "longDescription": "Find expert records, follow case relationships, and inspect literal source passages through your authorized Justice Docket account.",
+        "developerName": "BlueBridge Logic",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "websiteURL": "https://justicedocket.bluebridgelogic.com/connect-your-ai",
+        "defaultPrompt": ["Use Justice Docket to research this expert and cite the supporting source pages."]
+      }
+    }
+  }
+}

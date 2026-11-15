@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "justice-docket": {
+      "type": "streamable-http",
+      "url": "https://justicedocket.bluebridgelogic.com/mcp"
+    }
+  }
+}

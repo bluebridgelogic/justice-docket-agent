@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "justice-docket": {
+      "type": "http",
+      "url": "https://justicedocket.bluebridgelogic.com/mcp"
+    }
+  }
+}
