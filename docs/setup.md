@@ -1,8 +1,12 @@
-# Connect your assistant to Justice Docket
+# Set up Justice Docket in the user’s assistant
 
-Install the Justice Docket research plugin, connect its hosted MCP service, sign
-in to Justice Docket, and confirm authorized retrieval. The installed research
+Use this public guide to help the user install the Justice Docket research plugin,
+connect its hosted MCP service, authorize read access, and confirm retrieval. Follow
+the section for the assistant and account they are using. The installed research
 skill and tool descriptions guide evidence use after setup.
+
+Justice Docket’s signed-in **Connect your AI** page gives the user a prompt linking
+here. These instructions are publicly readable without a Justice Docket session.
 
 The maintained package is [bluebridgelogic/justice-docket-agent](https://github.com/bluebridgelogic/justice-docket-agent).
 The MCP address is `https://justicedocket.bluebridgelogic.com/mcp`. Select **OAuth**
@@ -73,8 +77,8 @@ remote service through the client's supported MCP authorization flow. See
 
 ## Check retrieval and resume research
 
-With the user's permission, ask the installed plugin to find a known expert or
-document from their collection using `search_records`. Open a returned record and
+Use the installed plugin to find a known expert or document from the user’s
+collection using `search_records`. Open a returned record and
 retrieve a short source passage. Check that its citation opens the expected
 document and original location. Report separately whether installation, skill
 availability, authorization, and retrieval succeeded.

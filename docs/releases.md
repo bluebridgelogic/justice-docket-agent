@@ -1,6 +1,6 @@
 # Releases and compatibility
 
-Package version `0.1.0` targets Justice Docket tool contract `1.0.0` and the five
+Package version `0.1.1` targets Justice Docket tool contract `1.0.0` and the five
 read-only tools named in [compatibility.json](../compatibility.json). Protocol
 version negotiation belongs to the MCP server and client; the package never
 stores an access token or client secret.

@@ -3,7 +3,7 @@ name: justice-docket-setup
 description: Install, authorize, reconnect, or check the Justice Docket research plugin and hosted MCP connection in a supported AI client. Use for setup or missing Justice Docket tools.
 ---
 
-Read the [Justice Docket setup guide](https://justicedocket.bluebridgelogic.com/connect-your-ai) and follow the section for the user's actual client and account. Its [Markdown view](https://justicedocket.bluebridgelogic.com/connect-your-ai.md) provides the same essential steps when an agent-readable view is needed.
+Read the public [Justice Docket agent setup instructions](https://raw.githubusercontent.com/bluebridgelogic/justice-docket-agent/main/docs/setup.md) and follow the section for the user’s actual client and account.
 
 Read the linked current official installation instructions before guiding the user through vendor controls. If useful screenshots are linked and image tools are available, inspect them; use the textual instructions and captions when images are unavailable. Distinguish ChatGPT and Claude chat surfaces from Codex and Claude Code. Do not assume a CLI installation proves a chat connection or that an account has workspace-admin controls.
 

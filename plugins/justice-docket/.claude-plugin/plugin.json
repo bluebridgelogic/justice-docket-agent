@@ -1,6 +1,6 @@
 {
   "name": "justice-docket",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Research expert witnesses, cases, and supporting evidence through read-only Justice Docket tools.",
   "author": { "name": "BlueBridge Logic", "url": "https://bluebridgelogic.com" },
   "homepage": "https://justicedocket.bluebridgelogic.com/connect-your-ai",

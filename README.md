@@ -4,13 +4,13 @@ Research skills and read-only MCP connection declarations for Justice Docket.
 The hosted service supplies authorized records and source evidence; your assistant
 plans the investigation and writes the answer through your AI account.
 
-Start with the [public setup guide](https://justicedocket.bluebridgelogic.com/connect-your-ai)
-or its [Markdown view](https://justicedocket.bluebridgelogic.com/connect-your-ai.md).
-The [repository copy](docs/setup.md) records the instructions shipped with this package.
+Signed-in Justice Docket users can copy the setup prompt from
+[Connect your AI](https://justicedocket.bluebridgelogic.com/connect-your-ai).
+Assistants follow the public [agent setup instructions](docs/setup.md).
 
 The two-sentence setup prompt is:
 
-> Connect this assistant to Justice Docket so I can research expert witnesses, cases, and supporting documents. Read https://justicedocket.bluebridgelogic.com/connect-your-ai and guide me through installing Justice Docket for this app.
+> Connect this assistant to Justice Docket so I can research expert witnesses, cases, and supporting documents. Read https://raw.githubusercontent.com/bluebridgelogic/justice-docket-agent/main/docs/setup.md and guide me through installing Justice Docket for this app.
 
 ## Package
 

@@ -1,5 +1,5 @@
 {
-  "packageVersion": "0.1.0",
+  "packageVersion": "0.1.1",
   "toolContractVersion": "1.0.0",
   "mcpEndpoint": "https://justicedocket.bluebridgelogic.com/mcp",
   "tools": ["search_records", "get_record", "get_related_records", "search_passages", "read_source"],
