@@ -87,9 +87,9 @@ Then ask the user's research question. The collection may be only partly indexed
 the tools report pending, unavailable, and truncated coverage explicitly. An empty
 query result does not establish that contrary evidence is absent.
 
-Use [Justice Docket's AI connections page](https://justicedocket.bluebridgelogic.com/ai-connections)
-to revoke a connection when finished or
-when access is no longer wanted. A revoked connection must stop further reads;
+Direct the user to the signed-in [Connect your AI page](https://justicedocket.bluebridgelogic.com/connect-your-ai#connections)
+to review or revoke access. Its connections section appears when the account has
+connections. A revoked connection must stop further reads;
 already disclosed content can remain in the external conversation. Installation,
 OAuth, and revocation in real Claude and ChatGPT remain owner-verification steps
 for this initial package.
